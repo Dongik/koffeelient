@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:name="site.dongik.goffee.view.templates.DrinkFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:paddingTop="@dimen/dimen_20"
+        android:paddingLeft="@dimen/dimen_20"
+        android:paddingRight="@dimen/dimen_20"
+        android:hint="Search"
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list"
+        tools:listitem="@layout/fragment_drink" />
+</LinearLayout>

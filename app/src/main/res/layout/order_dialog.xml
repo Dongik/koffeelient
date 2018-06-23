@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_margin"
+    android:paddingRight="@dimen/activity_margin"
+    android:paddingTop="@dimen/activity_margin">
+
+
+    <TextView android:id="@+id/dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:fontFamily="sans-serif-medium"
+        android:lineSpacingExtra="8sp"
+        android:text="@string/new_order_title"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/new_order_title"
+        android:textStyle="normal" />
+
+    <CheckBox
+        android:id="@+id/check_extra"
+
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:textSize="@dimen/checkbox_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/extra" />
+
+    <CheckBox
+        android:id="@+id/check_ice"
+
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/checkbox_text"
+        android:text="@string/ice" />
+
+    <!--<Switch-->
+        <!--android:id="@+id/switch_extra"-->
+        <!--android:layout_marginBottom="@dimen/dimen_10"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="@dimen/switch_text"-->
+        <!--android:text="@string/switch_extra" />-->
+    <!--<Switch-->
+        <!--android:layout_marginBottom="@dimen/dimen_10"-->
+        <!--android:id="@+id/switch_ice"-->
+        <!--android:textSize="@dimen/switch_text"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/switch_ice" />-->
+
+
+    <TextView
+        android:layout_marginBottom="@dimen/dimen_10"
+        android:textSize="@dimen/order_text"
+        android:id="@+id/text_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <!--<Button-->
+        <!--android:padding="@dimen/dimen_10"-->
+        <!--android:id="@+id/button2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="Button" />-->
+
+
+</LinearLayout>

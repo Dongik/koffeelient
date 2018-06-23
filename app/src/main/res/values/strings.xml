@@ -1,0 +1,43 @@
+<resources>
+
+    <string name="app_name">goffee</string>
+    <string name="title_activity_order_status">OrderStatusActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="hint_search">Type drink name</string>
+    <string name="quickstart_message">Click the SUBSCRIBE TO NEWS button below to subscribe to the
+        news topic. Messages sent to the news topic will be received. The LOG TOKEN button logs the
+        InstanceID token to logcat.</string>
+    <string name="subscribe_to_news">Subscribe To News</string>
+    <string name="log_token">Log Token</string>
+
+    <string name="msg_subscribed">Subscribed to news topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <!--
+        This is the name that users will see when interacting with this channel.
+        It should describe the category of notifications that will be sent through this channel
+     -->
+    <string name="default_notification_channel_name" translatable="true">News</string>
+
+    <string name="activity_local_search">Local Search</string>
+    <string name="activity_remote_search">Remote Search</string>
+
+    <string name="new_order_title">Select More</string>
+
+    <string name="switch_extra">Extra</string>
+    <string name="switch_ice">Ice</string>
+
+    <string name="extra">Extra</string>
+    <string name="ice">Ice</string>
+    <string name="hot">Hot</string>
+
+    <string name="order">Order</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="title_activity_order_dashboard">OrderDashboardActivity</string>
+    <string name="title_activity_dashboad">DashboadActivity</string>
+    <string name="title_activity_order_info">OrderInfoActivity</string>
+    <string name="title_activity_tab">TabActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "601069252989",
+    "firebase_url": "https://goffee-89aa2.firebaseio.com",
+    "project_id": "goffee-89aa2",
+    "storage_bucket": "goffee-89aa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:601069252989:android:8059fb506c1bbc3e",
+        "android_client_info": {
+          "package_name": "site.dongik.goffee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "601069252989-1srlr9bu8a71jdfftlv88h7rplgej2l0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgk1Q0FON4h58Wv_0kUqcDtpeainDbhXU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
